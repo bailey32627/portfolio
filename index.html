@@ -63,7 +63,7 @@
 
 
     <!-- Hero Section to tell everyone about yourself -->
-    <section class="section hero-section">
+    <section class="hero-section">
       <div class="hero-content">
         <h1 class="hero-content-intro">Hello, I'm Brad! </h1>
         <h6 class="hero-content-description">A Full Stack Developer</h6>
@@ -77,7 +77,7 @@
 
 
     <!-- About Me, tell your story -->
-    <section class="about-section">
+    <section id="about" class="about-section">
       <div class="about-container">
         <h1 class="large-title">About Me</h1>
         <p class="mid-text">Here you will find more information about me, what I do, and list of my current skills in programming.</p>
@@ -93,78 +93,78 @@
           <div class="skills-container">
             <h3 class="small-title">My Skills</h3>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/html-48.png" alt="">
                 <h5 class="card-text">html</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/css-48.png" alt="">
                 <h5 class="card-text">CSS</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/js-48.png" alt="">
                 <h5 class="card-text">JS</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/nodejs-48.png" alt="">
                 <h5 class="card-text">Node js</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/express-js-48.png" alt="">
                 <h5 class="card-text">Express js</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/python-48.png" alt="">
                 <h5 class="card-text">Python</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/C-48.png" alt="">
                 <h5 class="card-text">C</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/c-48 (1).png" alt="">
                 <h5 class="card-text">C++</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/java-50.png" alt="">
                 <h5 class="card-text">Java</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/git-48.png" alt="">
                 <h5 class="card-text">Git</h5>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-content">
+            <div class="skill-card">
+              <div class="skill-card-content">
                 <img src="./assets/github-logo-50.png" alt="">
                 <h5 class="card-text">Github</h5>
               </div>
@@ -177,10 +177,84 @@
     </section>
 
     <!-- Projects showcase -->
-    <section>
-      <h1>Projects</h1>
+    <section id="projects" class="projects-section">
+      <div class="projects-container">
+        <h1 class="large-title">Projects</h1>
+        <p class="mid-text">Here you will find some of the projects that I have created with details about the project, a link to see the project live and a link to the code repository. </p>
 
-    </section>
+        <div class="project-list-container">
+
+          <div class="project-row">
+            <div class="project-card">
+              <div class="project-card-content">
+                <h3 class="project-title">Project Name</h3>
+                <img class="project-img" src="./assets/project-placeholder.png" alt="">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                  labore magni saepe veritatis voluptatum alias fugit.
+                  Explicabo ducimus
+                </p>
+                <div class="project-card-btn-container">
+                  <button class="sm-btn">Live Link</button>
+                  <button class="sm-btn">Code Link</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-row project-row-inv">
+            <div class="project-card">
+              <div class="project-card-content">
+                <h3 class="project-title">Project Name</h3>
+                <img class="project-img" src="./assets/project-placeholder.png" alt="">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Error, aliquid! Itaque corrupti magnam fugiat mollitia
+                  labore magni saepe veritatis voluptatum alias fugit.
+                  Explicabo ducimus
+                </p>
+                <div class="project-card-btn-container">
+                  <button class="sm-btn">Live Link</button>
+                  <button class="sm-btn">Code Link</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Contacts -->
+      <section id="contacts" class="contact-section">
+        <h1>Contacts</h1>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <ul class="footer-links">
+          <li class="footer-link"><a href="./index.html">Home</a></li>
+          <li class="footer-link"><a href="./index.html#about">About</a></li>
+          <li class="footer-link"><a href="./index.html#projects">Projects</a></li>
+          <li class="footer-link"><a href="./index.html#contacts">Contacts</a></li>
+        </ul>
+
+        <div class="footer-mid-line"></div>
+
+        <div class="footer-social-links">
+          <a href="https://github.com/bailey32627" class="footer-social-link">
+            <img src="./assets/github-logo-50.png" alt="">
+          </a>
+
+          <a href="https://www.linkedin.com/in/bradley-s-bailey-35471b94/">
+            <img src="./assets/linkedin-48.png" alt="">
+          </a>
+
+          <a href="">
+            <img src="./assets/instagram-48.png" alt="">
+          </a>
+        </div>
+      </footer>
     <!-- Links -->
     <script type="text/javascript" src="./scripts.js"></script>
   </body>
