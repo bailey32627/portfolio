@@ -139,6 +139,11 @@ a {
   height: 3rem;
 }
 
+.sm-scr-menu-close > img {
+  width: 100%;
+  heigth: 100%;
+}
+
 .sm-scr-nav-btn {
   padding: 1rem 1rem;
   display: none;
@@ -154,21 +159,10 @@ a {
 .sm-scr-menu-close:before,
 .sm-scr-menu-close:after {
   position: absolute;
-  content: ' ';
   height: 3rem;
-  width: 1px;
-  left: 50%;
-  transform: translateX(-50%);
   background-color: #06202B;
 }
 
-.sm-scr-menu-close: before {
-  transform: rotate(45deg);
-}
-
-.sm-scr-menu-close: after {
-  transform: rotate(-45deg);
-}
 .sm-scr-menu-active {
   transform: translateX(0);
 }
@@ -443,6 +437,19 @@ a {
 .project-card-btn-container {
   margin-top: 2rem;
   justify-self: right;
+}
+
+/* contacts -------------------------------- */
+.contact-section {
+  background: rgb( 246, 246, 246 );
+  padding: 8rem 0;
+}
+
+.contact-container {
+  max-width: 120rem;
+  min-height: 90vh;
+  margin: auto;
+  width: 90%;
 }
 
 /* Footer ----------------------------------*/

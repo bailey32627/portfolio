@@ -6,7 +6,6 @@ const smMenuLinks = document.querySelectorAll( '.sm-scr-menu-link');
 const smHome = document.querySelector( '.sm-scr-menu-link-home' );
 const smAbout = document.querySelector( '.sm-scr-menu-link-about' );
 const smProjects = document.querySelector( '.sm-scr-menu-link-projects' );
-const smContacts = document.querySelector( '.sm-scr-menu-link-contacts' );
 
 
 smMenuBtn.addEventListener( 'click', () => {
@@ -24,18 +23,10 @@ smMenuBtn.addEventListener( 'click', () => {
   smProjects.style.transitionDelay = '1.1s';
   smProjects.style.transform = 'translateY(0)';
   smProjects.style.opacity = '1';
-
-  smContacts.style.transitionDelay = '1.4s';
-  smContacts.style.transform = 'translateY(0)';
-  smContacts.style.opacity = '1';
 });
 
 smMenuLinks.forEach( (e) => {
   e.addEventListener( 'click', () => {
-    smContacts.style.transitionDelay = '0s';
-    smContacts.style.transform = 'translateY(50px)';
-    smContacts.style.opacity = '0';
-
     smProjects.style.transitionDelay = '0.3s';
     smProjects.style.transform = 'translateY(50px)';
     smProjects.style.opacity = '0';
@@ -58,9 +49,6 @@ smMenuLinks.forEach( (e) => {
 });
 
 smMenuClose.addEventListener( 'click', () => {
-  smContacts.style.transitionDelay = '0s';
-  smContacts.style.transform = 'translateY(50px)';
-  smContacts.style.opacity = '0';
 
   smProjects.style.transitionDelay = '0.3s';
   smProjects.style.transform = 'translateY(50px)';
