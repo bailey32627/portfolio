@@ -488,3 +488,14 @@ a {
   margin: auto;
   margin-top: 3rem;
 }
+
+.icon-link {
+  margin: 2rem;
+  font-size: 1rem;
+  justify-self: center;
+}
+
+.icon-link  a {
+  font-weight: bold;
+  text-decoration: underline;
+}
