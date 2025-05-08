@@ -1,3 +1,6 @@
+const aboutButton = document.getElementById( 'about-button' );
+const projectButton = document.getElementById( 'project-button' );
+
 const smMenuBtn = document.querySelector( '.sm-scr-nav-btn');
 const smMenu = document.querySelector( '.sm-scr-menu' );
 const smMenuClose = document.querySelector( ".sm-scr-menu-close" );
@@ -7,6 +10,13 @@ const smHome = document.querySelector( '.sm-scr-menu-link-home' );
 const smAbout = document.querySelector( '.sm-scr-menu-link-about' );
 const smProjects = document.querySelector( '.sm-scr-menu-link-projects' );
 
+projectButton.addEventListener( 'click', () => {
+  location.href = 'index.html#projects';
+});
+
+aboutButton.addEventListener( 'click', () => {
+  location.href = 'index.html#about';
+});
 
 smMenuBtn.addEventListener( 'click', () => {
   smMenu.style.transitionDelay = '0s';
